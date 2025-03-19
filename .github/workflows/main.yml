@@ -23,7 +23,7 @@ jobs:
           
           ### SCANNING: Optional fields
           polaris_application_name: dp-hellojava
-          polaris_project_name: ${{ github.event.repository.name }}
+          polaris_project_name: name
           
           ### PULL REQUEST COMMENTS: Uncomment below to enable
           polaris_prComment_enabled: true 
